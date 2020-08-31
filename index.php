@@ -10,7 +10,7 @@ if($method == 'POST'){
 	$text = $json->result->parameters->text;
 
 	switch ($text) {
-		case 'hi':
+		case 'List of Heart disease':
 			$speech = "Hi, Nice to meet you";
 			break;
 
